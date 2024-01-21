@@ -1,0 +1,151 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*First Coloum*/
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+
+
+.coloum{
+    width: 350px;
+    margin: 20px;
+}
+.box{
+    padding: 20px;
+    border-radius: 5px;
+    background-color:white;
+
+}
+.thumnailContainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+
+
+.boxTitle{
+    font-size: 18px;
+}
+.thumnail{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.text{
+    margin-top: 10px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.stuff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 0px;
+    font-size: 12px;
+    
+    padding: 3px;
+}
+.stuffContainer{
+    margin-bottom: 20px;
+}
+.link{
+    color: #1c5fd4;
+    font-size: 15px;
+}
+.comment{
+    margin-top: 10px;
+}
+/*Second Coloum*/
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-angle-right{
+    margin-left: 20px;
+}
+.angle{
+    opacity: 0.5;
+}
+
+
+.image{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.textColoum1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.textColoum2{
+    font-size: 12px;
+    opacity: 0.5;
+}
+/* Third Coloum */
+.current{
+    font-size: 12px;
+    margin-top: 7px;
+    opacity: 0.6;
+}
+.number{
+    font-size: 34px;
+    margin-top: 5px;
+}
+.span{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.no{
+    color: green;
+
+}
+.divider{
+    height: 1px;
+    background-color: gray;
+    opacity: 0.2;
+    margin: 30px 0px;
+}
+.last{
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 7px;
+}
+.view{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0px;
+    padding: 5px 0px;
+}
+.op{
+    opacity: 0.5;
+}
+.moti{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.overflow{
+    white-space: nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.ffs{
+    color: green;
+    font-size: 15px;
+    margin-left: 8px;
+}
